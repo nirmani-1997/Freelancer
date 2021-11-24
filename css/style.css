@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+
+
+.top {
+	padding: 0;
+  
+  background: linear-gradient(to right, rgba(255, 153, 194), rgba(204, 153, 102));
+  
+
+}
+img {
+	width: 30%;
+
+
+
+
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white  ;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li a:hover {
+  background-color: #4d4d4d;
+  color: white;
+}
+
+.search-bar {
+  
+  padding: 10px 14px;
+  padding-right: 20px;
+
+}
+
+
+
+.search-bar input[type=text] {
+  font-size: 17px;
+  border: none;
+}
+
+.search-bar button {
+  
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #808080;
+  color: white;
+}
+
+
+
+
+
+/*----------- About me --------------*/
+
+
+.about-me {
+  width: 1200px;
+  height: 520px; 
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+      }
+.col-sm-4 {
+       height: 520px;
+          padding-right: 10px;
+       }
+.col-sm-8 {
+       height: 520px;
+          
+       }
+
+
+.img {
+
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.col-sm-4 h3 {
+  color: white;
+}
+
+.col-sm-4 h4 {
+  color: white;
+}
+
+.col-sm-4 hr {
+  
+  border: 0.5px dashed white;
+}
+
+
+.col-sm-4 P{
+  color:  #8a8a5c;
+  padding-bottom: 10px;
+}
+
+
+.col-sm-4 button {
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+}
+
+
+.head h5 {
+
+  font-size: 20px;
+  padding-left: 10px;
+
+}
+
+.head h3 {
+  font-size: 40px;
+  padding-left: 15px;
+  color:  #ff0080;
+   font-family: "Brush Script MT", cursive;
+}
+
+.head p {
+  padding-left: 50px;
+  padding-right: 15px;
+  color: black;
+  font-size: 17px;
+}
+
+
+
+
+.skills {
+  align-content: left;
+}
+.checked {
+  color: orange;
+
+}
+
+
+/*------------ latest products ---------------*/ 
+
+
+
+
+
+
+
+
+/* Footer */
+
+#footer {
+    background: #e0e0e0;
+    padding: 10px 0;
+    padding-top: 20px;
+    
+    height: 170px;
+    margin-top: 20px;
+}
+
+#footer a {
+    color: #999999;
+    padding: 0;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #666666;
+
+}
+
+#footer ul {
+    list-style: none;
+    padding-left: 10px;
+    background-color: transparent;
+
+}
+
+#footer .social {
+    text-align: left;
+}
+
+#footer .social a {
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    background: #555555;
+    text-decoration: none;
+}
+
+#footer .social a:hover {
+    color: blue;
+    background: #777777;
+}
+
+
+
+
+
+
+/*  Copyright Styles   */
+
+#copyright {
+    background: black;
+    color: white;
+   
+    font-size: 12px;
+    
+}
+
+#copyright p {
+    margin: 3px;
+    padding-top: 5px;
+
+
+}
+
+
+
